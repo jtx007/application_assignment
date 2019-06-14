@@ -1,6 +1,10 @@
 const express = require('express');
+const quotes = require('random-movie-quotes')
 const app = express();
 const port = 3000;
+const cors = require('cors');
+
+app.use(cors());
 
 app.use(express.static('public'));
 
