@@ -15,9 +15,6 @@ Then run the following command to spin up your web server on your local machine:
 `node index.js`
 
 
-![working app](app.gif)
-
-
 And finally visit "http://localhost:3000/" in your web browser and visit the page to see the quote being rendered to the screen. Every time you refresh, you should be getting a new movie quote.  
 
 ![working app](app.gif)
